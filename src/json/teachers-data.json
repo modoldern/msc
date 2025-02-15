@@ -1,0 +1,114 @@
+{
+  "title": "სერტიფიცირებული მასწავლებლები",
+  "description": "განცალკევებულად ცხოვრობენ. მათი ადგილის გასწვრივ მიედინება მცირე მდინარე დუდენი, რომელიც მათ ადგილს აუცილებელი რეგელიალიით ამარაგებს. ეს პარადიზემატური ქვეყანაა.",
+  "teachers": [
+    {
+      "name": "ბიანკა ვილსონი",
+      "role": "მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/1.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მიჩ პარკერი",
+      "role": "ინგლისური ენის მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/2.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "სტელა სმითი",
+      "role": "ხელოვნების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/3.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/4.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/5.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/6.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/7.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/8.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    },
+    {
+      "name": "მონშე ჰენდერსონი",
+      "role": "მეცნიერების მასწავლებელი",
+      "description": "მე ამბიციური მომუშავე ვარ, მაგრამ ამის გარდა, საკმაოდ მარტივი ადამიანი.",
+      "image": "../images/teachers/9.jpg",
+      "social": [
+        {
+          "facebook": "https://www.facebook.com/",
+          "linkedin": "https://www.linkedin.com/"
+        }
+      ]
+    }
+  ]
+}
