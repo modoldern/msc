@@ -1,0 +1,32 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "Modern Web Development",
+            "date": "2024-02-26",
+            "image": "./public/images/image1.jpg",
+            "content": "Modern web development has evolved significantly over the past few years. With the introduction of new frameworks and tools, developers now have more options than ever to create powerful and efficient web applications. This article explores the latest trends and best practices in web development..."
+        },
+        {
+            "id": 2,
+            "title": "The Future of AI",
+            "date": "2024-02-15",
+            "image": "./public/images/student.jpg",
+            "content": "Artificial Intelligence continues to reshape various industries and aspects of our daily lives. From autonomous vehicles to healthcare diagnostics, AI's influence is becoming increasingly prominent. In this article, we'll explore the current state of AI technology nileya semultonoqur sevontur"
+        },
+        {
+            "id": 3,
+            "title": "The Future of AI",
+            "date": "2024-02-15",
+            "image": "./public/images/image3.jpg",
+            "content": "Artificial Intelligence continues to reshape various industries and aspects of our daily lives. From autonomous vehicles to healthcare diagnostics, AI's influence is becoming increasingly prominent. In this article, we'll explore the current state of AI technology nileya semultonoqur sevontur"
+        },
+        {
+            "id": 4,
+            "title": "The Future of AI",
+            "date": "2024-02-15",
+            "image": "./public/images/image3.jpg",
+            "content": "Artificial Intelligence continues to reshape various industries and aspects of our daily lives. From autonomous vehicles to healthcare diagnostics, AI's influence is becoming increasingly prominent. In this article, we'll explore the current state of AI technology nileya semultonoqur sevontur"
+        }
+    ]
+}

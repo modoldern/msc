@@ -17,7 +17,9 @@
   import WhatWeOffer from "./components/Offer.svelte";
   import UniversityHero from "./components/UniversityHero.svelte";
   import TeachersSection from "./layouts/TeachersSection.svelte";
+  import Links from "./layouts/Links.svelte";
   import Footer from "./layouts/Footer.svelte";
+  import Blog from "./layouts/Blogs.svelte"
   import { footerData } from "./json/footer-data.json";
 
   import { fly, slide, blur, fade, scale } from "svelte/transition";
@@ -49,10 +51,11 @@
       <DataCard {icon} {title} {description} {author} {index} />
     {/each}
   </div>
-
+  <Blog />
   <WhatWeOffer {offerData} />
   <UniversityHero {universityData} />
   <TeachersSection />
+  <Links />
   <Footer {footerData} />
 </main>
 

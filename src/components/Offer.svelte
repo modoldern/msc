@@ -1,8 +1,17 @@
 <script>
   export let offerData;
+  import { onMount } from "svelte";
+  import { fade, slide, fly, scale } from "svelte/transition";
+  let visible = false;
+
+  // Sayfa yüklendiğinde animasyonu tetikle
+  onMount(() => {
+    visible = true;
+  });
+  
 </script>
 
-<div class="flex w-full px-5 xl:px-0 xl:w-6xl min-h-[930px]">
+<div transition:fly={{ y: 10, duration: 300 }} class="flex w-full px-5 xl:px-0 xl:w-6xl min-h-[930px]">
   <div class="flex flex-col py-8 gap-14 justify-center h-full md:pr-8">
     <div class="flex flex-col gap-8">
       <h2 class="text-3xl font-semibold text-left">{offerData.title}</h2>

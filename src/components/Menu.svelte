@@ -1,5 +1,12 @@
 <script>
-  import { fly, slide, blur, fade } from "svelte/transition";
+  import { fade, slide, fly, scale } from "svelte/transition";
+  let visible = false;
+
+  // Sayfa yüklendiğinde animasyonu tetikle
+  import { onMount } from "svelte";
+  onMount(() => {
+    visible = true;
+  });
 
   // Single state to track which menu/submenu is currently open
   let activeMenu = null;
@@ -29,9 +36,12 @@
 
 <nav class="text-msclight h-full w-full lg:flex">
   <div class="flex flex-wrap justify-between items-center">
-    <button aria-label="btn"
+    <button
+      aria-label="btn"
       on:click={() => (isOpen = !isOpen)}
-      class="lg:hidden p-2 focus:outline-none {isOpen ? 'scale-120' : 'scale-100'} transition-transform"
+      class="lg:hidden p-2 focus:outline-none {isOpen
+        ? 'scale-120'
+        : 'scale-100'} transition-transform"
     >
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -54,7 +64,7 @@
       class="w-full lg:block lg:w-auto {isOpen ? 'block' : 'hidden'}"
       transition:fly={{ y: 10, duration: 200 }}
     >
-      <ul
+      <ul transition:fly={{ y: 10, duration: 300 }}
         class="flex flex-col items-start lg:flex-row lg:mt-0 text-sm font-medium"
       >
         <!-- Home -->
@@ -103,7 +113,8 @@
               <!-- Teachers submenu -->
               <li class="relative border-b">
                 <button
-                  on:click={() => handleSubmenuClick("vocational-education-teachers")}
+                  on:click={() =>
+                    handleSubmenuClick("vocational-education-teachers")}
                   class="p-2 hover:text-mscaccent lg:hover:text-mscsecondary-02 flex justify-center items-center w-full lg:w-auto"
                 >
                   პროფესიული განათლების მასწავლებლები
@@ -132,7 +143,8 @@
                         href="/vocational-education-teacher-program-implementer-recruitment-procedure"
                         class="block p-2 hover:text-mscaccent lg:hover:text-mscsecondary-02"
                       >
-                        პროფესიული განათლების მასწავლებლის/პროგრამის განმახორციელებლის სამსახურში მიღების წესი
+                        პროფესიული განათლების მასწავლებლის/პროგრამის
+                        განმახორციელებლის სამსახურში მიღების წესი
                       </a>
                     </li>
                     <li class="border-b">
@@ -379,7 +391,8 @@
               <!-- Sample of education certificate -->
               <li class="relative border-b">
                 <button
-                  on:click={() => handleSubmenuClick("sample-of-education-certificate")}
+                  on:click={() =>
+                    handleSubmenuClick("sample-of-education-certificate")}
                   class="p-2 hover:text-mscaccent lg:hover:text-mscsecondary-02 flex justify-center items-center w-full lg:w-auto"
                 >
                   განათლების დამადასტურებელი დოკუმენტის ნიმუში
