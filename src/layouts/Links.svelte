@@ -5,9 +5,9 @@
 </script>
 
 <h2 class="text-4xl font-bold mt-16 mb-4">{linksData.title}</h2>
-<Carousel autoplay={2000} onChange perPage={{ xs: 3, md: 6 }}>
+<Carousel autoplay={2000} onChange>
   {#each links as { title, image }, index (index)}
-    <div class="w-full sm:w-1/2 md:w-1/4">
+    <div class="w-1/2 md:w-1/4">
       <img
         src={image}
         alt={title}
