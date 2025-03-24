@@ -55,7 +55,7 @@
 <section class="py-16 bg-msclight w-full px-5 xl:px-0">
   <div class="">
     <div class="text-center mb-12 break-all">
-      <h2 class="text-4xl font-bold mb-4">{teachersData.title}</h2>
+      <h2 class="text-3xl font-bold mb-4">{teachersData.title}</h2>
       <p class="text-gray-600 max-w-2xl mx-auto">
         {teachersData.description}
       </p>

@@ -32,7 +32,9 @@
 
     if (controller) {
       controller.perPage = currentPerPage;
-      controller.update();
+      if (typeof onChange === "function") { 
+        controller.update()
+      }
     }
   }
 
@@ -93,10 +95,12 @@
 
   function handleChange(event) {
     currentIndex = controller.currentSlide;
-    onChange?.({
-      currentSlide: controller.currentSlide,
-      slideCount: controller.innerElements.length,
-    });
+    if (typeof onChange === "function") {
+      onChange({
+        currentSlide: controller.currentSlide,
+        slideCount: controller.innerElements.length,
+      });
+    }
   }
 </script>
 

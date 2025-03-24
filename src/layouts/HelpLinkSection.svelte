@@ -1,19 +1,19 @@
 <script>
   import Carousel from "../components/LinkCard.svelte";
-  import linksData from "../json/links-data.json"; // JSON dosyasını import et
-  let links = linksData.links; // JSON'daki 'links' dizisini al
+  import linksData from "../json/links-data.json";
+  let links = linksData.links;
 </script>
 
-<h2 class="text-4xl font-bold mt-16 mb-4">{linksData.title}</h2>
-<Carousel autoplay={2000} onChange>
+<h2 class="text-3xl font-bold mt-16 mb-4">{linksData.title}</h2>
+<Carousel autoplay={2000} onChange >
   {#each links as { title, image }, index (index)}
     <div class="w-1/2 md:w-1/4">
       <img
         src={image}
         alt={title}
-        style="width: 100%; height: 100%; object-fit: cover;"
+        class="w-16 sm:w-full h-full object-cover mb-3"
       />
-      <h3>{title}</h3>
+      <span class="text-xs sm:text-base font-bold">{title}</span>
     </div>
   {/each}
 </Carousel>
@@ -30,7 +30,7 @@
   img {
     height: auto;
   }
-  h3 {
+  span {
     margin-top: 0.5rem;
     text-align: center;
     font-size: 1rem;

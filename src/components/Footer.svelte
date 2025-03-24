@@ -6,7 +6,7 @@
 </script>
 
 <footer
-  class="bg-mscdark w-full flex flex-col items-center justify-center gap-40 text-msclight py-12 min-h-[715px]"
+  class="bg-mscsecondary-01 w-full flex flex-col items-center justify-center gap-40 text-msclight py-12 min-h-[715px]"
 >
   <div class="w-full px-5 xl:px-0 xl:w-6xl grid sm:grid-cols-2 xl:grid-cols-3 gap-8 h-auto">
     <!-- Questions Section -->
